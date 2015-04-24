@@ -249,15 +249,15 @@ $config['sess_cookie_name']		= 'ci_session';
 // El número de segundos que quiere que dure la sesión.
 $config['sess_expiration']		= 7200;
 // Si la sesión expira al cerrar el navegador
-$config['sess_expire_on_close']	= TRUE;
+$config['sess_expire_on_close']	= FALSE;
 // Si encriptar o no los datos de sesión.
-$config['sess_encrypt_cookie']	= TRUE;
+$config['sess_encrypt_cookie']	= FALSE;
 // Si guardar los datos de sesión a una base de datos.
 // Debe crear la tabla antes de habilitar esta opción.
-$config['sess_use_database']	= TRUE;
+$config['sess_use_database']	= FALSE;
 // El nombre de la tabla de sesión en la base de datos
 // Debe ser un nombre de tabla válido en SQL
-$config['sess_table_name']      = 'tm_sesion';
+$config['sess_table_name']      = 'ci_sessions';
 // Se indica que valide si coincide la dirección de IP 
 // del usuario cuando se lean los datos de sesión.
 // Si la IP es dinámica y se requiere una sesión ilimitada
